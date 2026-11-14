@@ -1,0 +1,9 @@
+# Preserve the submitted MATLAB files byte-for-byte.
+*.m -text
+*.pdf binary
+*.xlsx binary
+*.mat binary
+*.h5 binary
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

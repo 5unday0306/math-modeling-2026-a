@@ -1,0 +1,20 @@
+# Local credentials and editor/system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.asv
+*.m~
+~$*
+.vscode/
+.idea/
+
+# Generated runtime artifacts (submitted PDFs and XLSX files are tracked)
+/q*/artifacts/
+/q3/计算缓存/
+__pycache__/
+*.pyc
